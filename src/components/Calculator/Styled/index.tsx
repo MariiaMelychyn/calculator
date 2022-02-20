@@ -27,7 +27,7 @@ export const Screen = styled.div`
 `;
 
 export const Previous = styled.div`
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.801);
   font-size: 1.5rem;
 `;
 
@@ -54,9 +54,9 @@ export const Button = styled.button<{
   /* Expanded Form example */
   ${({ gridSpan }) => gridSpan && `grid-column: span ${gridSpan};`}
   ${({ operation }) => operation && `background-color: grey;`}
-  ${({ control }) => control && `background-color: skyblue;`}
+  ${({ control }) => control && `background-color: #87e8eb;`}
   ${({ equal }) =>
-    equal && `border-bottom-right-radius: 10px; background-color: grey;`}
+    equal && `border-bottom-right-radius: 10px; background-color: #808080c1;`}
     ${({ period }) =>
-    period && `border-bottom-left-radius: 10px; background-color: skyblue;`}
+    period && `border-bottom-left-radius: 10px; background-color: #87d7eb;`}
 `;
